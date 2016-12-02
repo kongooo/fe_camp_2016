@@ -1,0 +1,46 @@
+
+#bac{
+    z-index: -1;
+    position: absolute;
+
+
+}
+#img1{
+    z-index:1
+}
+#img2{
+    z-index:1
+}
+.b1 {
+
+    background-repeat: no-repeat;
+    margin-top: 270px;
+    margin-left: 900px;
+    z-index: 0;
+    position: absolute;
+    font-family: 迷你简少儿;
+    font-size: 35px;
+}
+.b1:active{
+    background-image: url("btn-gray.png");
+}
+.b1:hover{
+    background-image:url("btn-gray.png") ;
+}
+
+.b2{
+    background-repeat: no-repeat;
+    margin-top: 470px;
+    margin-left: 900px;
+    z-index: 0;
+    position: absolute;
+    font-family: 迷你简少儿;
+    font-size: 35px;
+
+}
+.b2:active{
+    background-image: url("btn-blue.png");
+}
+.b2:hover{
+    background-image: url("btn-blue.png");
+}

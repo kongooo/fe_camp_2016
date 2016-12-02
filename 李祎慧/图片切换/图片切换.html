@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小新和巴卫</title>
+    <link rel="stylesheet"  href="图片样式.css">
+</head>
+<body >
+<div class="bac-box" >
+    <img id="bac" src="bw-bg.jpg">
+</div>
+<div class="b1">
+    <img id="img1" src="btn-blue.png">
+</div>
+<div class="b2">
+    <img id="img2" src="btn-gray.png">
+</div>
+<div class="btn-box">
+    <button id="btn1"  class="b1" style="border:30px;width:240px;height:49px;background-color: transparent" >巴卫</button>
+    <button id="btn2"  class="b2" style="border:30px;width:240px;height:49px;background-color: transparent">小新</button>
+</div>
+</body>
+    <script>{
+
+        var bac=document.getElementById("bac");
+        var img1=document.getElementById("img1");
+        var img2=document.getElementById("img2");
+
+
+        btn1.onclick=function(){
+            bac.setAttribute("src","bw-bg.jpg");
+            img1.setAttribute("src" , " btn-gray.png");
+            img2.setAttribute("src","btn-blue.png");
+
+        }
+        btn2.onclick=function(){
+            bac.setAttribute("src","xx-bg.jpg");
+            img1.setAttribute("src","btn-blue.png");
+            img2.setAttribute("src","btn-gray.png");
+        }
+       }
+    </script>
+</html>
