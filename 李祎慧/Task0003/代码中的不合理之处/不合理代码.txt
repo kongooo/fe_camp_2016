@@ -1,0 +1,2 @@
+该页面下方并没有背景或内容，但是却没有将背景的css属性设为fixed，以至于可以上下滚动但是下方却是空白。
+http://vbooking.ctrip.com/Package_Vendor_Vbooking/UserManagement/Login2.aspx#
