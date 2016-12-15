@@ -1,0 +1,49 @@
+.a {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    width: 1720px;
+    height: 900px;
+    position: fixed;
+    background-size: cover;
+}
+
+.c{
+    margin-left: 400px;
+    margin-top: 400px;
+    z-index: 0;
+    position: absolute;
+}
+.b{
+    margin-left: 410px;
+    margin-top: 420px;
+    z-index: 0;
+    position: absolute;
+
+}
+.d{
+    text-decoration: none;
+    font-family: 迷你简少儿;
+    font-size: 50px;
+    color: #000001;
+}
+.b:hover{
+    background-image: url("txxf.png");
+}
+.d:hover{
+    color: #00b3ee;
+}
+.e{
+    margin-left: 900px;
+    margin-top: 430px;
+    list-style-type:none;
+}
+.f{
+    margin-left: 900px;
+    margin-top: 30px;
+    list-style-type:none;
+}
+.g{
+    margin-left: 900px;
+    margin-top: 30px;
+    list-style-type:none;
+}
