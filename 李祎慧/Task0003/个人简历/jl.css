@@ -4,17 +4,18 @@
     width: 1720px;
     height: 900px;
     position: fixed;
+    background-size: cover;
 }
 
 .c{
-    margin-left: 200px;
-    margin-top: 300px;
+    margin-left: 400px;
+    margin-top: 400px;
     z-index: 0;
     position: absolute;
 }
 .b{
-    margin-left: 210px;
-    margin-top: 320px;
+    margin-left: 410px;
+    margin-top: 420px;
     z-index: 0;
     position: absolute;
 
@@ -32,14 +33,17 @@
     color: #00b3ee;
 }
 .e{
-    margin-left: 700px;
-    margin-top: 330px;
+    margin-left: 900px;
+    margin-top: 430px;
+    list-style-type:none;
 }
 .f{
-    margin-left: 700px;
+    margin-left: 900px;
     margin-top: 30px;
+    list-style-type:none;
 }
 .g{
-    margin-left: 700px;
+    margin-left: 900px;
     margin-top: 30px;
+    list-style-type:none;
 }
