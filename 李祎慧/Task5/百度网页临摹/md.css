@@ -1,0 +1,184 @@
+.form{
+    margin-left:1050px;
+    margin-top:17px;
+    height:23px;
+    background-color: white;
+}
+.nave{
+    margin:0.5em;
+    font-size:13px;
+    font-weight:bold;
+    color:black;
+
+}
+.nave:hover{
+    color:#0000CC;
+}
+.dl{
+    margin:0.5em;
+    font-size:13px;
+    color:black;
+}
+.dl:hover{
+    color:#0000CC;
+}
+.sz{
+    margin:0.5em;
+    font-size:13px;
+    color:black;
+}
+.sz:hover{
+    color:#0000CC;
+}
+.more{
+    position:absolute;
+    right:15px;
+    width:60px;
+    background-color: #3385ff;
+    color:white;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.img{
+    margin-top:60px;
+    text-align: center;
+}
+.input{
+    height:34px;
+    margin:22px;
+}
+.margin {
+    width: 539px;
+    height: 34px;
+    border-left: 1px solid rgb(184,184,184);
+    border-top: 1px solid rgb(184,184,184);
+    border-bottom: 1px solid rgb(204,204,204);
+    margin-left: 415px;
+}
+.margin:hover{
+    border-top: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-bottom: 1px solid #B3B3B3;
+}
+.margin:active{
+    border: 1px solid #4791FF
+}
+input{
+    font-size: 15px;
+    position:absolute;
+    padding-top:5px;
+}
+.text{
+    border:none;
+    padding-left:8px;
+    height:25px;
+    width:495px;
+}
+.camera{
+    background-image: url("cgray.png");
+    height:16px;
+    width:18px;
+    margin-top: 9px;
+    margin-left: 510px;
+    position:absolute;
+}
+.camera:hover{
+    background-image: url("cblue.png");
+    cursor: pointer;
+}
+.bt{
+    font-size:15px;
+    color:white;
+    background-color: #3385FF;
+    height:36px;
+    width:100px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    border:#3385FF;
+}
+.bt:hover{
+    border:#2D78F4;
+    background-color: #317EF3;
+}
+
+.btn{
+    position:absolute;
+}
+.ma{
+    margin-top: 270px;
+}
+.two{
+    text-align:center;
+}
+.p{
+    text-align:center;
+    font-size:12px;
+    color:#666666;
+    font-weight:bold;
+    margin-top: 4px;
+}
+.p1{
+    text-align:center;
+    margin-top:20px;
+}
+.a{
+    color:#999999;
+    font-size:12px;
+    margin: 0 0 0 15px;
+}
+.p2{
+    text-align: center;
+    margin-top: -14px;
+}
+.b{
+    color:#999999;
+    font-size:12px;
+}
+.c{
+    color:#999999;
+    font-size:12px;
+}
+.c::after{
+    content:url("police2.png");
+    height:17px;
+    width:14px;
+}
+.d{
+    color:#999999;
+    font-size:12px;
+    padding-left: 2em;
+}
+.d::after{
+    content:url("police.png");
+}
+.a-content {
+    position:relative;
+    right:13px;
+    display:none;
+    width:70px;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1);
+    border:1px solid #D1D1D1;
+}
+.z:hover{
+    background-color: #3388FF;
+    color:#FFFFFF;
+}
+.ss:hover .a-content{display:block}
+.ss{
+    position:absolute;
+    display: inline-block;
+    left
+}
+.z{
+    color:black;
+    background-color: white;
+    font-size:12px;
+    text-decoration: none;
+    line-height:26px;
+    text-align: center;
+    display:block;
+}

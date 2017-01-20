@@ -1,0 +1,35 @@
+.bg{
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bt{
+    position:relative;
+    text-align: center;
+    height:70px;
+    margin-top:250px;
+    margin-left:600px;
+    margin-right:600px;
+    background-color: rgba(225,225,225,0.5);
+    border-radius: 50px;
+
+}
+.bt:hover{-webkit-transition: 1s;
+            -webkit-transform: scale(1.5,1.5);
+        background-color: rgba(54,54,54,0.2);
+}
+.me{
+    font-size: 30px;
+    font-family: "Adobe Caslon Pro";
+    text-decoration: none;
+    color:black;
+    position:relative;
+    top:20px;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
+.me:hover{color:white;
+    -webkit-transition: 1s;
+}
