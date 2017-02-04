@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+    <style type="text/css">
+        .bg{
+            background-color:#adf9e4 ;
+        }
+        .form{
+            height:300px;
+            width:500px;
+            background-color:rgba(115,115,115,0.2);
+            left:500px;
+            top:200px;
+            position: relative;
+        }
+        p{
+            font-family: 造字工房悦黑体验版特细长体;
+            font-size: 30px;
+            position: absolute;
+            left:190px;
+            top:20px;
+        }
+        .f{
+            position: absolute;
+        }
+        .tx{
+            top:150px;
+            height:23px;
+            width:300px;
+            left:100px;
+        }
+        .tx2{
+            top:172px;
+            font-size:20px;
+            left:100px;
+
+        }
+        .bt{
+            left:230px;
+            top:230px;
+            background-color: black;
+            color:white;
+            width:60px;
+            height:30px;
+            border:black 1px solid;
+
+        }
+        .bt:hover{
+            background-color: #0e3755;
+            cursor: hand;
+        }
+        .bt:active{
+            background-color: white;
+            color:black;
+        }
+    </style>
+</head>
+</head>
+<body class="bg">
+<div class="form">
+    <p>去重内容</p>
+    <input type="text" class="f tx" id="txt" placeholder="请输入兴趣爱好"style="height:20px;padding-left: 3px;" autofocus>
+    <p class="f tx2" id="txt2" ></p>
+    <button  class="f bt" id="btn" onclick="cut()">确定</button>
+</div>
+<script>
+    function cut( ) {
+
+        function change(arr) {
+            var box = [];
+            var thisArr;
+
+            for (var i = 0; i < arr.length; i++) {
+                thisArr = arr[i]
+
+                var flag = true;
+
+                for (var j = i + 1; j < arr.length; j++) {
+
+                    if (arr[j] == thisArr) {
+                        flag = false;
+                        break;
+                    }
+                }
+
+                if (flag == false) {
+                    continue;
+                }
+                box.push(thisArr);
+            }
+            return box
+
+        }
+        var array = document.getElementById("txt").value.split("，");
+        document.getElementById("txt2").innerHTML = change(array)
+    }
+
+</script>
+</body>
+</html>

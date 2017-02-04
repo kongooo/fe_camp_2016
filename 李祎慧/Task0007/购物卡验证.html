@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物卡验证</title>
+    <style type="text/css">
+        .bg{
+            background-color:#adf9e4 ;
+        }
+        .form{
+            height:300px;
+            width:500px;
+            background-color:rgba(115,115,115,0.2);
+            left:500px;
+            top:200px;
+            position: relative;
+        }
+        p{
+            font-family: 造字工房悦黑体验版特细长体;
+            font-size: 30px;
+            position: absolute;
+            left:190px;
+            top:20px;
+        }
+        .f{
+            position: absolute;
+        }
+        .tx{
+            top:150px;
+            height:23px;
+            width:200px;
+            left:150px;
+        }
+        .tx2{
+            top:170px;
+            font-size:20px;
+            left:125px;
+
+        }
+        .bt{
+            left:230px;
+            top:230px;
+            background-color: black;
+            color:white;
+            width:60px;
+            height:30px;
+            border:black 1px solid;
+
+        }
+        .bt:hover{
+            background-color: #0e3755;
+            cursor: hand;
+        }
+        .bt:active{
+            background-color: white;
+            color:black;
+        }
+    </style>
+</head>
+<body class="bg">
+
+    <div class="form">
+        <p>购物卡验证</p>
+        <input type="text" class="f tx" id="txt" placeholder="请输入密码"style="height:20px;padding-left: 3px;" autofocus>
+        <p class="f tx2" id="txt2" ></p>
+        <button  class="f bt" id="btn" onclick="change()">确认</button>
+    </div>
+
+<script>
+
+    function change()
+    {
+        var str=document.getElementById("txt").value;
+        var reg= /^\w{5}-\w{5}-\w{5}-\w{5}-\w{5}$/;
+        if(!reg.test(str))
+        {
+            alert("异常：无效的密码格式！");
+        }
+
+        else
+
+            document.getElementById("txt2").innerHTML=document.getElementById("txt").value.toUpperCase().replace(/-/g,'');
+
+    }
+</script>
+</body>
+</html>
